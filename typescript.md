@@ -1,11 +1,11 @@
 # 1 CLASS:
 ## Các thuộc tính khai báo trong class 
-    - protected: Thuộc tính có thể được truy cập từ bên trong lớp và các lớp con (subclass).
-    - private: chỉ có thể được truy cập từ bên trong lớp.
-    - public: Thuộc tính có thể được truy cập từ bất kỳ đâu.
-    - static: các thuộc tính không cần phải khởi tạo
-    - readonly: các thuộc tính bên trong không thể bị thay đổi khi khởi tạo
-    - abstract: không được khai báo trực tiếp trong lớp mà trong các lớp trừu tượng (abstract class). 
+    protected: Thuộc tính có thể được truy cập từ bên trong lớp và các lớp con (subclass).
+    private: chỉ có thể được truy cập từ bên trong lớp.
+    public: Thuộc tính có thể được truy cập từ bất kỳ đâu.
+    static: các thuộc tính không cần phải khởi tạo
+    readonly: các thuộc tính bên trong không thể bị thay đổi khi khởi tạo
+    abstract: không được khai báo trực tiếp trong lớp mà trong các lớp trừu tượng (abstract class). 
 
 # 2 DECORATOR: Cho phép bạn thêm metadata hoặc thay đổi hành vi của các lớp, phương thức, thuộc tính, hoặc tham số. 
 

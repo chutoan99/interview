@@ -17,3 +17,22 @@
 | Subject | BehaviorSubject | ReplaySubject | AsyncSubject |
 |------|-------|------|------|
 | chỉ nhận data sau khi đã subscribe.|subscriber sẽ nhận được giá trị cuối cùng mà Subject emit.|Cũng tương tự BehaviorSubject, tuy nhiên dữ liệu đã emit được lưu lại với số lượng tùy ý (được cấu hình lúc khai báo). Khi subscriber bắt đầu subscribe thì nó sẽ nhận được số lượng giá trị đã emit trước đó tương ứng.|Chỉ emit giá trị cuối cùng lúc khi complete().|
+
+
+### 3. Phân biệt mergeMap, switchMap, concatMap, exhaustMap
+|------| mergeMap | switchMap | concatMap | exhaustMap |
+|Hoạt động|-------|------|------||------|
+|Ưu điểm|-------|------|------||------|
+|Nhược điểm|-------|------|------||------|
+|Ví dụ|-------|------|------||------|
+
+
+mergeMap
+Hoạt động: Khi nhận được giá trị từ Observable nguồn, mergeMap sẽ tạo ra một Observable mới và hợp nhất tất cả các Observable đó vào cùng một luồng, bất kể thứ tự hoặc thời gian hoàn thành.
+Ưu điểm: Xử lý các luồng song song, hiệu quả khi không cần quan tâm đến thứ tự hoặc hoàn thành trước sau của các Observable.
+Nhược điểm: Có thể gây ra tình trạng cạnh tranh (race conditions) khi các Observable hoàn thành không theo thứ tự mong muốn.
+Ví dụ:
+
+source$.pipe(
+  mergeMap(value => anotherObservable(value))
+)

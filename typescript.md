@@ -113,7 +113,7 @@ Module (ES6 modules) là cách phân chia mã thành các tệp riêng biệt v�
 
 ## 6 Utility Types:
 
-### - Awaited`<Type>`: 
+### - `Awaited<Type>`: 
 Trích xuất loại giá trị mà một Promise sẽ trả về
 ```typescript
 async function fetchData(): Promise<number> {
@@ -122,7 +122,7 @@ async function fetchData(): Promise<number> {
 type ResultType = Awaited<ReturnType<typeof fetchData>>; //* ResultType sẽ là number
 ```
 
-### - Partial <Type>: 
+### - `Partial<Type>`: 
 Biến các thuộc tính trong 1 đối tượng thành optional
 ```typescript
 interface User {
@@ -136,7 +136,7 @@ const updateUser: PartialUser = {
 };
 ```
 
-### - Required<Type>: 
+### - `Required<Type>`: 
 Biến các thuộc tính trong 1 đối tượng thành bắt buộc
 ```typescript
 interface User {
@@ -151,7 +151,7 @@ const user: RequiredUser = {
 };
 ```
 
-### - Readonly<Type>: 
+### - `Readonly<Type>`: 
 Biến các thuộc tính trong 1 đối tượng thành chỉ đọc
 ```typescript
 interface User {
@@ -168,7 +168,7 @@ const user: Readonly<User> = {
 user.name = "Bob"; // Error: Cannot assign to 'name' because it is a read-only property.
 ```
 
-### - Record<Keys, Type>: 
+### - `Record<Keys, Type>`: 
 Cho phép bạn chỉ định một tập hợp các khóa và kiểu dữ liệu cho các giá trị tương ứng với các khóa đó.
 ```typescript
 enum Color {
@@ -182,7 +182,7 @@ const colorDescriptions: Record<Color, string> = {
 };
 ```
 
-### - Pick<Type, Keys>: 
+### - `Pick<Type, Keys>`: 
 Tạo một loại mới từ một loại (Type) hiện tại chỉ với các thuộc tính(Keys) được "chỉ định".
 ```typescript
 interface User {
@@ -200,7 +200,7 @@ const userSummary: UserSummary = {
 };
 ```
 
-### - Omit<Type, Keys>: 
+### - `Omit<Type, Keys>`: 
 Tạo một loại mới từ một loại (type) hiện tại bằng cách "loại bỏ" một hoặc nhiều thuộc tính cụ thể.
 
 ```typescript
@@ -219,7 +219,7 @@ const userSummary: UserSummary = {
 };
 ```
 
-### - Exclude<Type, Union>: 
+### - `Exclude<Type, Union>`: 
 Loại bỏ các loại thuộc U khỏi một tập hợp loại T.
 
 ```typescript
@@ -229,7 +229,7 @@ type ExcludedTypes = 'b' | 'd';
 type Result = Exclude<AllTypes, ExcludedTypes>; // Kết quả: 'a' | 'c'
 ```
 
-### - Extract<Type, Union>: 
+### - `Extract<Type, Union>`: 
 Lấy các kiểu thuộc T mà cũng thuộc U.
 ```typescript
 type A = 'a' | 'b' | 'c';
@@ -239,7 +239,7 @@ type B = 'b' | 'c' | 'd';
 type Result = Extract<A, B>; // Kết quả: 'b' | 'c'
 ```
 
-### - NonNullable<Type>: 
+### - `NonNullable<Type>`: 
 Loại bỏ các kiểu null và undefined khỏi một tập hợp kiểu.
 ```typescript
 type NullableString = string | null | undefined;
@@ -249,7 +249,7 @@ type NonNullableString = NonNullable<NullableString>; // Kết quả: string
 
 ```
 
-### - Parameters<Type>: 
+### - `Parameters<Type>`: 
 Trích xuất các tham số của một hàm từ kiểu hàm T và tạo ra một tuple (mảng) chứa các loại của các tham số đó
 ```typescript
 function add(a: number, b: number): number {
@@ -259,7 +259,7 @@ function add(a: number, b: number): number {
 type AddParameters = Parameters<typeof add>; // Kết quả: [number, number]
 ```
 
-### - ConstructorParameters<Type>: 
+### - `ConstructorParameters<Type>`: 
 Trích xuất các tham số của một hàm constructor từ một kiểu lớp hoặc kiểu constructor function
 ```typescript
 class Person {
@@ -270,7 +270,7 @@ class Person {
 type PersonConstructorParams = ConstructorParameters<typeof Person>; // Kết quả: [string, number]
 ```
 
-### - ReturnType<Type>: 
+### - `ReturnType<Type>`: 
 Trích xuất kết quả trả về của 1 hàm
 ```typescript
 function getUserInfo(userId: number): { name: string; age: number } {
@@ -280,7 +280,7 @@ function getUserInfo(userId: number): { name: string; age: number } {
 type UserInfo = ReturnType<typeof getUserInfo>; // Kết quả: { name: string; age: number }
 ```
 
-### - InstanceType<Type>: 
+### - `InstanceType<Type>`: 
 lấy kiểu của thể hiện (instance) của một lớp hoặc một hàm constructor từ một kiểu lớp hoặc hàm constructor. 
 ```typescript
 class Person {
@@ -291,7 +291,7 @@ class Person {
 type PersonInstance = InstanceType<typeof Person>; // Kết quả: Person
 ```
 
-### - ThisParameterType<Type>: 
+### - `ThisParameterType<Type>`: 
 Lấy kiểu của tham số 'this' từ một hàm hoặc một phương thức trong lớp
 ```typescript
 class Person {
@@ -308,7 +308,7 @@ class Person {
 type GreetThisType = ThisParameterType<typeof Person.prototype.greet>; // Kết quả: Person
 ```
 
-### - OmitThisParameter<Type>: 
+### - `OmitThisParameter<Type>`: 
 Loại bỏ tham số this khỏi kiểu hàm.
 ```typescript
 function example(this: { name: string }, age: number): void {}
@@ -319,7 +319,7 @@ type ExampleWithoutThis = OmitThisParameter<typeof example>;
 const exampleFunction: ExampleWithoutThis = (age) => {};
 ```
 
-### - ThisType<Type>: 
+### - `ThisType<Type>`: 
 Cung cấp thông tin về loại của this trong một đối tượng.
 ```typescript
 interface Person {

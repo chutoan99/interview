@@ -1,4 +1,4 @@
-### 1 Phân biệt Call, Apply, Bind:
+### 1. Phân biệt Call, Apply, Bind:
 
 | Call | Apply | Bind |
 |------|-------|------|
@@ -51,7 +51,7 @@ sayHelloVan(); // => Hello,Good morning Vân Thanh
 
 - Hàm bind thì hơi khác hơn một chút. Hàm này không gọi hàm trực tiếp mà nó sẽ trả về một hàm mới. Và bạn có thể sử dụng hàm số mới này sau. Về cách truyền tham số vào thì nó giống với hàm call.
 
-### 2 Closures 
+### 2. Closures 
  Closures xảy ra khi một hàm "nhớ" được phạm vi (scope) mà nó được khai báo, ngay cả khi hàm đó được thực thi ngoài phạm vi ban đầu của nó.
 Closures cho phép một hàm truy cập vào biến của phạm vi bên ngoài ngay cả sau khi phạm vi bên ngoài đã kết thúc.
 
@@ -65,7 +65,7 @@ const closureFunc = outerFunction();
 closureFunc(); // "I am from outer scope"
 ```
 
-### 3 Event loop trong javascript
+### 3. Event loop trong javascript
 ![My Image](https://www.loginradius.com/blog/static/68b5a28f6bdca97b73593056ae425a8d/e5715/event_loop_illustration.png)
 
 

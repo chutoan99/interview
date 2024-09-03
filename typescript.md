@@ -113,7 +113,7 @@ Module (ES6 modules) là cách phân chia mã thành các tệp riêng biệt v�
 
 ## 6 Utility Types:
 
-### - Awaited <Type>: 
+### - Awaited`<Type>`: 
 Trích xuất loại giá trị mà một Promise sẽ trả về
 ```typescript
 async function fetchData(): Promise<number> {

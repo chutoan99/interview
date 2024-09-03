@@ -1,9 +1,9 @@
 # DESIGN PATTERNS
 
 ## Creational Patterns: 
-    là một nhóm các mẫu thiết kế tập trung vào việc khởi tạo object. Giúp object linh hoạt hơn và ít tight-coupling (liên kết ràng buộc) hơn với client code. 
+là một nhóm các mẫu thiết kế tập trung vào việc khởi tạo object. Giúp object linh hoạt hơn và ít tight-coupling (liên kết ràng buộc) hơn với client code. 
 
-    Các Creational design patterns thúc đẩy việc tái sử dụng code, khả năng bảo trì và khả năng mở rộng, tạo điều kiện thuận lợi cho việc tạo các object theo cách hiệu quả và có khả năng kiểm soát nhằm đáp ứng các yêu cầu đa dạng của ứng dụng.
+Các Creational design patterns thúc đẩy việc tái sử dụng code, khả năng bảo trì và khả năng mở rộng, tạo điều kiện thuận lợi cho việc tạo các object theo cách hiệu quả và có khả năng kiểm soát nhằm đáp ứng các yêu cầu đa dạng của ứng dụng.
 
 ### 1. Singleton: 
     Singleton là một mẫu thiết kế sáng tạo cho phép bạn đảm bảo rằng một class chỉ có một instance, đồng thời cung cấp một điểm truy cập toàn cầu cho phiên bản này.
@@ -73,7 +73,7 @@ shape3?.draw(); // Output: Drawing a Rectangle
     - Đảm bảo tuân theo nguyên tắc Open/Closed: Bạn có thể mở rộng hệ thống (bằng cách thêm hình dạng mới) mà không cần sửa đổi mã hiện có.
 
 ### 3. Abstract Factory: 
-    Đây là phần mở rộng của mẫu thiết kế trước đó. Nó bổ sung thêm một lớp abstract (trừu tượng) khác trên mẫu thiết kế Factory. Trong trường hợp này, bản thân Factory là abtract (trừu tượng), cho phép các chương trình chọn cách triển khai Factory khác nhau, tạo ra đặc tính khác nhau của cùng một sản phẩm tùy thuộc vào localization và các yêu cầu khác. 
+Đây là phần mở rộng của mẫu thiết kế trước đó. Nó bổ sung thêm một lớp abstract (trừu tượng) khác trên mẫu thiết kế Factory. Trong trường hợp này, bản thân Factory là abtract (trừu tượng), cho phép các chương trình chọn cách triển khai Factory khác nhau, tạo ra đặc tính khác nhau của cùng một sản phẩm tùy thuộc vào localization và các yêu cầu khác. 
 
 ### 4. Builder: 
     Builder là một mẫu thiết kế sáng tạo cho phép bạn xây dựng các object phức tạp theo từng bước. Mẫu này cho phép bạn tạo ra các kiểu và cách biểu diễn khác nhau của một object bằng cách sử dụng cùng một construction code.
@@ -243,7 +243,7 @@ const emailReport = new EmailDecorator(pdfReport); console.log(emailReport.gener
     Proxy là một mẫu thiết kế cấu trúc cho phép bạn kiểm soát quyền truy cập của một đối tượng vì nhiều lý do khác nhau, ví dụ như Bảo mật, Hiệu suất, Bộ đệm, v.v.. Proxy giúp kiểm soát quyền truy cập vào đối tượng ban đầu, cho phép bạn thực hiện điều gì đó trước hoặc sau khi yêu cầu được chuyển đến đối tượng đó
 
 ## Behavioral Patterns: 
-    là một tập hợp các mẫu thiết kế tập trung vào việc xác định giao tiếp và tương tác giữa các object và class. Các mẫu này thúc đẩy tính linh hoạt, khả năng sử dụng lại và khả năng bảo trì bằng cách gói gọn các hành vi khác nhau trong các object riêng biệt.
+là một tập hợp các mẫu thiết kế tập trung vào việc xác định giao tiếp và tương tác giữa các object và class. Các mẫu này thúc đẩy tính linh hoạt, khả năng sử dụng lại và khả năng bảo trì bằng cách gói gọn các hành vi khác nhau trong các object riêng biệt.
 
 ### 13. Chain of Responsibility: 
     Đây là một mẫu thiết kế hành vi cho phép bạn chuyển các request dọc theo một chuỗi handler. Khi nhận được request, mỗi handler sẽ quyết định xử lý yêu cầu hoặc chuyển nó cho handler tiếp theo trong chuỗi.

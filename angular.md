@@ -20,7 +20,7 @@
 
 
 ### 3. Phân biệt mergeMap, switchMap, concatMap, exhaustMap
-| | mergeMap | switchMap | concatMap | exhaustMap |
+| ... | mergeMap | switchMap | concatMap | exhaustMap |
 |Hoạt động|-------|------|------|------|
 |Ưu điểm|-------|------|------|------|
 |Nhược điểm|-------|------|------|------|

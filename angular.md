@@ -18,5 +18,5 @@
 
 `- ngAfterViewChecked:` được gọi sau khi sau khi angular đã kiểm tra các thành phần view và view con, được gọi sau ngAfterViewInit và mỗi lần ngAfterContentChecked chạy.
 
-`- ngDeTroy:` được gọi khi component bị phá hủy. Thường được dùng để handel các tác vụ unsubrice
+`- ngDestroy:` được gọi khi component bị phá hủy. Thường được dùng để handel các tác vụ unsubrice
 

@@ -2,10 +2,7 @@
 
 | Call | Apply | Bind |
 |------|-------|------|
-| `call` gọi hàm trực tiếp và truyền các tham số vào lần lượt. 
-| `apply` cũng gọi hàm trực tiếp nhưng truyền các tham số trong một mảng. 
-| `bind` không gọi hàm ngay lập tức mà trả về một hàm mới với `this` đã được gán cố định và có thể truyền trước một số tham số. |
-| 
+| `call` gọi hàm trực tiếp và truyền các tham số vào lần lượt. | `apply` cũng gọi hàm trực tiếp nhưng truyền các tham số trong một mảng. | `bind` không gọi hàm ngay lập tức mà trả về một hàm mới với `this` đã được gán cố định và có thể truyền trước một số tham số. | 
 
 `call`
 ```typescript  

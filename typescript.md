@@ -99,10 +99,10 @@ enum Direction {
 ```
 
 # 4 OOP: 
-## Encapsulation (Đóng gói): Sử dụng access modifiers (public, private, protected) để giới hạn quyền truy cập của các thuộc tính , methods của class
-## Inheritance (kế thừa): Sử dụng từ khóa 'extends' để kế thừa thuộc tính và phương thức từ lớp cha.
-## Polymorphism (Đa hình): phương thức ghi đè (method overriding) Cho phép một phương thức có thể hoạt động khác nhau tùy vào đối tượng gọi nó
-## Abstraction (Trừu tượng): các phương thức mà các lớp con phải triển khai, thông qua abstract class hoặc interface.
+    - Encapsulation (Đóng gói): Sử dụng access modifiers (public, private, protected) để giới hạn quyền truy cập của các thuộc tính , methods của class
+    - Inheritance (kế thừa): Sử dụng từ khóa 'extends' để kế thừa thuộc tính và phương thức từ lớp cha.
+    - Polymorphism (Đa hình): phương thức ghi đè (method overriding) Cho phép một phương thức có thể hoạt động khác nhau tùy vào đối tượng gọi nó
+    - Abstraction (Trừu tượng): các phương thức mà các lớp con phải triển khai, thông qua abstract class hoặc interface.
 
 # 5 Namespace && Module: 
 Namespace là cách tổ chức mã trong một không gian tên chung trong cùng một hoặc một nhóm tệp. Nó không hỗ trợ các tính năng của hệ thống module hiện đại.

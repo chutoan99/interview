@@ -2,20 +2,12 @@
 
 ### Phân biệt Call, Apply, Bind
 
+### Phân biệt Call, Apply, Bind
+
 | Call | Apply | Bind |
 |------|-------|------|
 | `call` gọi hàm trực tiếp và truyền các tham số vào lần lượt. | `apply` cũng gọi hàm trực tiếp nhưng truyền các tham số trong một mảng. | `bind` không gọi hàm ngay lập tức mà trả về một hàm mới với `this` đã được gán cố định và có thể truyền trước một số tham số. |
-| **Ví dụ**: | **Ví dụ**: | **Ví dụ**: |
-| ```typescript | ```typescript | ```typescript |
-| var person1 = {firstName: 'Khoa', lastName: 'Nguyễn'}; | var person1 = {firstName: 'Khoa', lastName: 'Nguyễn'}; | var person1 = {firstName: 'Khoa', lastName: 'Nguyễn'}; |
-| var person2 = {firstName: 'Vân', lastName: 'Thanh'}; | var person2 = {firstName: 'Vân', lastName: 'Thanh'}; | var person2 = {firstName: 'Vân', lastName: 'Thanh'}; |
-| function say(greeting1, greeting2) { | function say(greeting0, greeting1) { | function say(greeting0, greeting1) { |
-| console.log(greeting1 + ',' + greeting2 + ' ' + this.firstName + ' ' + this.lastName); | console.log(greeting0 + ',' + greeting1 + ' ' + this.firstName + ' ' + this.lastName); | console.log(greeting0 + ',' + greeting1 + ' ' + this.firstName + ' ' + this.lastName); |
-| } | } | } |
-| say.call(person1, 'Hello', 'Good morning'); // => Hello,Good morning Khoa Nguyễn | say.apply(person1, ['Hello', 'Good morning']); // => Hello,Good morning Khoa Nguyễn | var sayHelloKhoa = say.bind(person1, 'Hello', 'Good morning'); |
-| say.call(person2, 'Hello', 'Good morning'); // => Hello,Good morning Vân Thanh | say.apply(person2, ['Hello', 'Good morning']); // => Hello,Good morning Vân Thanh | var sayHelloVan = say.bind(person2, 'Hello', 'Good morning'); |
-| | | sayHelloKhoa(); // => Hello,Good morning Khoa Nguyễn |
-| | | sayHelloVan(); // => Hello,Good morning Vân Thanh |
+| ```typescript  var person1 = {firstName: 'Khoa', lastName: 'Nguyễn'}; var person2 = {firstName: 'Vân', lastName: 'Thanh'}; function say(greeting1, greeting2) { console.log(greeting1 + ',' + greeting2 + ' ' + this.firstName + ' ' + this.lastName); } say.call(person1, 'Hello', 'Good morning'); // => Hello,Good morning Khoa Nguyễn say.call(person2, 'Hello', 'Good morning'); // => Hello,Good morning Vân Thanh ``` | ```typescript var person1 = {firstName: 'Khoa', lastName: 'Nguyễn'}; var person2 = {firstName: 'Vân', lastName: 'Thanh'}; function say(greeting0, greeting1) { console.log(greeting0 + ',' + greeting1 + ' ' + this.firstName + ' ' + this.lastName); } say.apply(person1, ['Hello', 'Good morning']); // => Hello,Good morning Khoa Nguyễn say.apply(person2, ['Hello', 'Good morning']); // => Hello,Good morning Vân Thanh ``` | ```typescript var person1 = {firstName: 'Khoa', lastName: 'Nguyễn'}; var person2 = {firstName: 'Vân', lastName: 'Thanh'}; function say(greeting0, greeting1) { console.log(greeting0 + ',' + greeting1 + ' ' + this.firstName + ' ' + this.lastName); } var sayHelloKhoa = say.bind(person1, 'Hello', 'Good morning'); var sayHelloVan = say.bind(person2, 'Hello', 'Good morning'); sayHelloKhoa(); // => Hello,Good morning Khoa Nguyễn sayHelloVan(); // => Hello,Good morning Vân Thanh ``` |
 
 
 Sau khi xem qua 3 ví dụ sau, chúng ta có thể rút ra 1 vài nhận xét:

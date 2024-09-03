@@ -67,6 +67,8 @@ closureFunc(); // "I am from outer scope"
 
 ### Event loop trong javascript
 ![My Image](https://www.loginradius.com/blog/static/68b5a28f6bdca97b73593056ae425a8d/e5715/event_loop_illustration.png)
+
+
 Ban dầu các tác vụ khi mà thực thi thì sẽ năm ở trong call tasck, 
 Vd
 - khi mà thực hiện làm log(1) thì nó kiểm tra đây có phải hàm thực thi các tác vụ bất độ hay không, nếu không thì nó sẽ thực thin gay và xóa nó khỏi call stask

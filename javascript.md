@@ -1,4 +1,4 @@
-### Phân biệt Call, Apply, Bind:
+### 1 Phân biệt Call, Apply, Bind:
 
 | Call | Apply | Bind |
 |------|-------|------|
@@ -51,7 +51,7 @@ sayHelloVan(); // => Hello,Good morning Vân Thanh
 
 - Hàm bind thì hơi khác hơn một chút. Hàm này không gọi hàm trực tiếp mà nó sẽ trả về một hàm mới. Và bạn có thể sử dụng hàm số mới này sau. Về cách truyền tham số vào thì nó giống với hàm call.
 
-### Closures 
+### 2 Closures 
  Closures xảy ra khi một hàm "nhớ" được phạm vi (scope) mà nó được khai báo, ngay cả khi hàm đó được thực thi ngoài phạm vi ban đầu của nó.
 Closures cho phép một hàm truy cập vào biến của phạm vi bên ngoài ngay cả sau khi phạm vi bên ngoài đã kết thúc.
 
@@ -65,7 +65,7 @@ const closureFunc = outerFunction();
 closureFunc(); // "I am from outer scope"
 ```
 
-### Event loop trong javascript
+### 3 Event loop trong javascript
 ![My Image](https://www.loginradius.com/blog/static/68b5a28f6bdca97b73593056ae425a8d/e5715/event_loop_illustration.png)
 
 
@@ -75,6 +75,6 @@ Vd
 - khi gặp 1 hàm chờ 2s thì nó sẽ chuyển hàm có vào webApi, webapi sẽ đợi 2s, và chuyển hàm đó thành call back và chuyển nó vào hang đợi, 
 - event loop sẽ kiểm tra các hàm trong call stask xem còn hàm nào hay không, nếu không thì nó sẽ chuyển hàm call back đang Queue sang call task và thực thi nó, vòng đời nó cứ như vậy
 Ngoài ra thì Queue nó lại chi làm 2 thành phần là Micro Task Queue vs Macro Task Queue
-  Macro Task: Tác vụ không đồng bộ như setTimeout, setInterval, hoặc I/O operation sẽ được đẩy vào macro task queue. Khi call stack trống, event loop sẽ thực thi tất cả các micro task trước.
-  Micro Task: Tác vụ như Promise.resolve().then() hoặc process.nextTick sẽ được đẩy vào micro task queue.
+- Macro Task: Tác vụ không đồng bộ như setTimeout, setInterval, hoặc I/O operation sẽ được đẩy vào macro task queue. Khi call stack trống, event loop sẽ thực thi tất cả các micro task trước.
+- Micro Task: Tác vụ như Promise.resolve().then() hoặc process.nextTick sẽ được đẩy vào micro task queue.
 Sau khi micro task queue trống, event loop sẽ thực thi một macro task.

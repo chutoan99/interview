@@ -1,4 +1,4 @@
-### Vòng đời của Components trong Angular
+### 1 Vòng đời của Components trong Angular
 
 ![My Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYSZTzRzPOZFUROXL4jK6hSMwBJulk-Ce7XQ&s)
 
@@ -12,7 +12,7 @@
 `- ngAfterViewChecked:` được gọi sau khi sau khi angular đã kiểm tra các thành phần view và view con, được gọi sau ngAfterViewInit và mỗi lần ngAfterContentChecked chạy.
 `- ngDeTroy:` được gọi khi component bị phá hủy. Thường được dùng để handel các tác vụ unsubrice
 
-### Phân biệt Subject, BehaviorSubject, ReplaySubject, AsyncSubject:
+### 2 Phân biệt Subject, BehaviorSubject, ReplaySubject, AsyncSubject:
 
 | Subject | BehaviorSubject | ReplaySubject | AsyncSubject |
 |------|-------|------|------|

@@ -9,7 +9,7 @@ My strengths include my ability to quickly adapt to projects using technologies 
 As for my weakness, my language skills are not very strong. However, I am currently working on improving them step by step.
 
 ### What are your strengths and weaknesses?
-- My strengths include my ability to quickly adapt to projects using technologies I have not previously worked with, as well as my capability to work effectively both in a team and independently. As for my weakness, my language skills are not very strong. However, I am currently working on improving them step by step.
+My strengths include my ability to quickly adapt to projects using technologies I have not previously worked with, as well as my capability to work effectively both in a team and independently. As for my weakness, my language skills are not very strong. However, I am currently working on improving them step by step.
 
 
 ### How do you process handle tasks?

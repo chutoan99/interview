@@ -2,7 +2,7 @@
 
 ![My Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYSZTzRzPOZFUROXL4jK6hSMwBJulk-Ce7XQ&s)
 
-`- contructor:` phương thức khởi tạo của class, dùng để khai báo các dependenciew jnjectiong của comoponnet, hạn chế việc logic vào contructor.
+`- contructor:` phương thức khởi tạo của class, dùng để khai báo các dependence injection của components, hạn chế việc logic vào contructor.
 
 `- ngOnChanges:` nó sẽ thực thi khi mà phát hiện sự thay đổi của các `input` đầu vào: thường được cập nhất các giá trị `input` đầu vào.
 

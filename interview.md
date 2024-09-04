@@ -1,7 +1,10 @@
 ### Please introduce yourself!
 Hello, my name is Toàn, Trương Văn Chu Toàn. I’m 25 years old and currently working in Ho Chi Minh City. Today, I’m very excited to be interviewing for the Front-End Developer position at your company.
-I have 2 years of experience in web development, primarily in front-end position .  However, I also have experience working in back-end position. On the front end, I work with JavaScript frameworks and libraries such as Angular, React, and Vue, with Angular being the framework I use most frequently in my company’s projects. It is also the framework I am most confident in.
+
+I have 2 years of experience in web development, primarily in front-end position .  However, I also have experience working in back-end position. On the front end, I work with JavaScript frameworks and libraries such as Angular, React, and Vue. with Angular being the framework I use most in my company’s projects. It is also the framework I am most confident in.
+
 My current goal is to focus deeply on front-end development while learning more back-end technologies to become a full-stack developer within the next two years.
+
 My strengths include my ability to quickly adapt to projects using technologies I have not previously worked with, as well as my capability to work effectively both in a team and independently.
 As for my weakness, my language skills are not very strong. However, I am currently working on improving them step by step.
 

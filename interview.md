@@ -38,7 +38,7 @@ Step 4: On the front end, I will convert the Figma design into a web using Angul
 
 Step 5: I will integrate the APIs (Application Programming Interface.) into the front end.
 
-Step 6: I will unit test the functions based on basic cases, to ensure that nothing is missing, then hand it over to the tester.
+Step 6: I will unit test the feature on basic test cases, then send it over to the tester.
 
 Step 7: If any bugs are found, I will fix them.
 

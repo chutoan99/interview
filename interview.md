@@ -5,11 +5,22 @@ I have 2 years of experience in web development, primarily in front-end position
 
 My current goal is to focus deeply on front-end development At the same time learning more back-end technologies to become a full-stack developer within the 1 to 1.5 years.
 
-My strengths include my ability to quickly adapt to projects using technologies I have not previously worked with, as well as my capability to work effectively both in a team and independently.
-As for my weakness, my language skills are not very strong. However, I am currently working on improving them step by step.
+My strengths is:
+- I have the ability to adapt quickly to projects, to technologies that I have not used before.
+- I can learn technologies quickly.
+- I can work well in a team or independently.
+- I can keep my cool and I don`t allow pressure to get to me.
+My weakness is, 
+- My language skills are not very strong. However, I am currently working on improving them step by step.
 
 ### What are your strengths and weaknesses?
-My strengths include my ability to quickly adapt to projects using technologies I have not previously worked with, as well as my capability to work effectively both in a team and independently. As for my weakness, my language skills are not very strong. However, I am currently working on improving them step by step.
+My strengths is:
+- I have the ability to adapt quickly to projects, to technologies that I have not used before.
+- I can learn technologies quickly.
+- I can work well in a team or independently.
+- I can keep my cool and I don`t allow pressure to get to me.
+My weakness is, 
+- My language skills are not very strong. However, I am currently working on improving them step by step.
 
 
 ### How do you process handle tasks?
@@ -49,6 +60,7 @@ I value a positive working environment, and relationships with colleagues, If th
 
 ### Do you have any questions for us?
 - How are your company's projects currently?
+- Why did you choose Vietnam to expand your company?
 
 ### What are the advantages and challenges you encountered in the project, and how did you overcome those challenges?
 

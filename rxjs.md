@@ -27,7 +27,7 @@ source$.pipe(
 )
 ```
 #### `concatMap`
-- Hoạt động: Khi nhận được giá trị từ Observable nguồn, concatMap sẽ đợi Observable trước đó hoàn thành trước khi bắt đầu xử lý Observable mới. Nó đảm bảo rằng các Observable được xử lý tuần tự theo thứ tự chúng được nhận.
+- Hoạt động: Khi nhận được giá trị từ Observable nguồn, concatMap sẽ `đợi Observable trước đó hoàn thành trước khi bắt đầu xử lý Observable mới`. Nó đảm bảo rằng các Observable được xử lý tuần tự theo thứ tự chúng được nhận.
 - Ưu điểm: Duy trì thứ tự xử lý của các Observable, không để xảy ra tình trạng các yêu cầu bị chồng chéo.
 - Nhược điểm: Không thể xử lý song song các Observable, có thể dẫn đến hiệu suất thấp hơn nếu có nhiều Observable.
 ```typescript
@@ -36,7 +36,7 @@ source$.pipe(
 )
 ```
 #### `exhaustMap`
-- Hoạt động: Khi nhận được giá trị từ Observable nguồn, exhaustMap sẽ bỏ qua tất cả các giá trị tiếp theo cho đến khi Observable hiện tại hoàn thành. Khi hoàn thành, nó sẽ chấp nhận giá trị mới tiếp theo từ Observable nguồn.
+- Hoạt động: Khi nhận được giá trị từ Observable nguồn, exhaustMap sẽ `bỏ qua tất cả các giá trị tiếp theo cho đến khi Observable hiện tại hoàn thành`. Khi hoàn thành, nó sẽ chấp nhận giá trị mới tiếp theo từ Observable nguồn.
 - Ưu điểm: Tốt cho các tình huống yêu cầu chỉ cần xử lý một Observable tại một thời điểm và bỏ qua các yêu cầu liên tiếp nếu có một Observable đang chạy.
 - Nhược điểm: Bỏ qua các giá trị nguồn khi Observable hiện tại chưa hoàn thành, có thể dẫn đến mất dữ liệu nếu có quá nhiều yêu cầu liên tiếp.
 ```typescript

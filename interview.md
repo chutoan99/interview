@@ -22,7 +22,7 @@ My strengths is:
 - I can keep my cool and I don`t allow pressure to get to me.
 
 My weakness is:
-- My language skills are not very strong. However, I am currently improving them step by step.
+- language skills are not very strong. However, I am currently improving them step by step.
 
 
 ### How do you process handle tasks?

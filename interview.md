@@ -1,5 +1,5 @@
 ### Please introduce yourself!
-Hello, my name is Toàn, Trương Văn Chu Toàn. I’m 25 years old and currently working in Ho Chi Minh City. Today, I’m very excited to be interviewing for the Front-End Developer position at your company.
+Hello, my name is Toàn, fullname is Trương Văn Chu Toàn. I’m 25 years old and currently working in Ho Chi Minh City. Today, I’m very excited to be interviewing for the Front-End Developer position at your company.
 
 I have 2 years of experience in web development, primarily in front-end position .  However, I also have experience working in back-end position. On the front end, I work with JavaScript frameworks and libraries such as Angular, React, and Vue. with Angular being the framework I use most in my company’s projects. It is also the framework I am most confident in.
 

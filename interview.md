@@ -1,7 +1,7 @@
 ### Please introduce yourself!
 Hello, my name is Toàn, full name is Trương Văn Chu Toàn. I’m 25 years old and currently working in Ho Chi Minh City. Today, I’m very excited to be interviewing for the Front-End Developer position at your company.
 
-I have 2 years of experience in web development, primarily in front-end position .  However, I also have experience working in back-end position. On the front end, I work with JavaScript frameworks and libraries such as Angular, React, and Vue. with Angular being the framework I use most in my company’s projects. It is also the framework I am most confident in.
+I have 2 years of experience in web development, primarily in front-end position. However, I also have experience working in back-end position. I work with JavaScript frameworks and libraries such as Angular, React, and Vue. with Angular being the framework I use most in my company’s projects. It is also the framework I am most confident in.
 
 My current goal is to focus deeply on front-end development At the same time learning more back-end technologies to become a full-stack developer within the 1 to 1.5 years.
 
@@ -13,7 +13,7 @@ As for my weakness, my language skills are not very strong. However, I am curren
 
 
 ### How do you process handle tasks?
-For the "Employee Record Management" feature, when receiving a task from the Business Analyst (BA):
+Example: for the "Employee Record Management" feature, when receiving a task from the Business Analyst (BA):
 
 Step 1: I will clarify the requirements outlined in the documentation and Figma designs to ensure nothing is missing.
 

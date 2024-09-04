@@ -28,7 +28,7 @@ My weakness is:
 ### How do you process handle tasks?
 For example, when tasked with developing the "Employee Record Management" feature, my process would be:
 
-Step 1: I will review the requirements outlined in the documentation and Figma designs, to ensure that nothing is missing.
+Step 1: I will review the requirements outlined in the documentation and Figma designs, to ensure less errors.
 
 Step 2: On the backend, I will build the tables in the database on the feature requirements.
 

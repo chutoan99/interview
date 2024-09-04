@@ -9,7 +9,8 @@ My strengths is:
 - I have the ability to adapt quickly to projects, to technologies that I have not used before.
 - I can learn technologies quickly.
 - I can work well in a team or independently.
-- I can keep my cool and I don`t allow pressure to get to me.
+- I can keep my cool and I don`t allow pressure to get to me.\
+
 My weakness is, 
 - My language skills are not very strong. However, I am currently working on improving them step by step.
 
@@ -19,6 +20,7 @@ My strengths is:
 - I can learn technologies quickly.
 - I can work well in a team or independently.
 - I can keep my cool and I don`t allow pressure to get to me.
+
 My weakness is, 
 - My language skills are not very strong. However, I am currently working on improving them step by step.
 

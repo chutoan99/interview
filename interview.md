@@ -40,7 +40,7 @@ Step 5: I will integrate the APIs (Application Programming Interface.) into the 
 
 Step 6: I will unit test the feature on basic test cases, then send it over to the tester.
 
-Step 7: If any bugs are found, I will fix them.
+Step 7: If any bugs are found, I will fix quickly.
 
 
 ### What is your desired salary for this position?
